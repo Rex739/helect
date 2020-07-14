@@ -7,7 +7,7 @@ if(isset($_POST['submit'])){
 	if(mysqli_query($conn, $cmd)){
 		echo "Successful";
 	}else{
-		"Not Save"; 
+		echo "Not Save"; 
 	}
 }
 ?> 
