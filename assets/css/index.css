@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-shadow: border-box;
+}
+
+body{
+	background-color: powderblue;
+}
+
+h1, p{
+	text-align: center;
+}
+.test-img{
+	 animation: spin 4s linear infinite;
+	 margin: 0 2.375rem -2.188rem;
+
+}
+.test-img2{
+	 animation: spine 4s linear infinite;
+	margin-right: -1.563rem;
+	
+}
+.test-img3{
+	 animation: spini 4s linear infinite;
+	 margin-right: -0.625rem;
+	 
+}
+@keyframes spin {
+  0% { transform: rotate(360deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes spine {
+  100% { transform: rotate(360deg); }
+  0% { transform: rotate(0deg); }
+}
+
+
+@keyframes spini {
+  0% { transform: rotate(360deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.size{
+	height: 100px;
+}
+
+.wrapper{
+	display: grid;
+	justify-content: center;	
+}
+
+.tt{
+	background: white;
+	padding: 50px;
+	border-radius: 30px;
+}
