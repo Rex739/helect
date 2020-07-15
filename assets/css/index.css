@@ -11,7 +11,7 @@
   --nav-font: 'Orbitron', sans-serif;
   --primary-color: #E5E5E5;
   --secondary-color: #000000;
-  --blue-color: #87DFD6;
+  --collaspe_btn-color: #E9E9E9;
   --solid-blue: #01A9B4;
   --white-color: #fff;
   --button-text-color: #D8F7F9;
@@ -20,80 +20,120 @@
 
 body{
 	background-color: var(--primary-color);
-	padding: 0 44px;
 }
 /*buttons*/
 .collapse-btn{
-	background: #ffff;
+	background: var(--collaspe_btn-color);
 	border: none;
-	padding: 1rem 8rem 1rem 8rem; 
+	padding: 1rem 4rem;
 	border-radius: 0px 0px 20px 20px;
 	outline: none;
 }
 .collapse-vector{
 	padding: 0.5rem 0;
+	height: 1.9rem;
 }
 .collapse-btn:active{
 	outline: none;
 }
 .subscribe-btn{
-	margin: 30px 0;
-	padding: 20px 60px;
 	border-radius: 20px;
 	background: #000000;
+	justify-content: flex-start;
 
 }
+.wrapper{
+		margin: 0;	
+	}
 @media all and (min-width: 0px){
+	header{
+		background-color: #E4F1F3;
+		height: 80vh;
+		margin: 0;
+		width: 100%;
+	}
 	.logo{
+		display: grid;
+		justify-content: center;
 		font-family: var(--primary-font);
 		font-style: normal;
 		font-weight: 500;
-		font-size: 1.5rem;
-		line-height: 2.25rem;
+		font-size: 0.9rem;
+		line-height: 1.5rem;
 		margin: 0;
+	}
+	.company-logo{
+		/*height: 50px;*/
+	}
+	.collapse-btn{	
+		padding: 0.5rem 4rem;
+		border-radius: 0px 0px 25px 25px;
 	}
 	.align{
 		display: grid;
-		justify-content: center;
+		justify-content: flex-start;
 	}
 	.cover{
-		padding-top: 8.5rem;
+		
 	}
 	.cover-heading{
 		font-style: normal;
 		font-weight: 500;
-		font-size: 4rem;
-		line-height: 6rem;
+		font-size: 1.6rem;
+		line-height: 2.8rem;
+		text-align: center;
 	}
 	.content-text{
 		font-style: normal;
 		font-weight: normal;
-		font-size: 1.5rem;
-		line-height: 2.25rem;
-		padding: 1.125rem 5.5rem 0 0;
+		font-size: 14px;
+		line-height: 21px;
+		text-align: center;
 	}
 	.email{
 		border-radius: 20px;
-		padding: 20px 400px 20px 20px;
 		background-color: transparent;
+		padding: 5px 10px;
 
 	}
 	.form{
 		display: grid;
+		width: 100%;
+		padding: 0 50px;
+	}
+	.subscribe-btn{
+		border-radius: 20px;
+		background: #000000;
+		justify-content: center;
+		border-radius: 20px;
+
+
+	}
+	.size{
+		height: 4.5rem;
+	}
+	.rotors{
+		display: grid;
+		justify-content: flex-end;
+		width: 100%;
+	}
+	.first-rotor{
+		display: grid;
+		justify-content: center;
 	}
 	.test-img{
 		animation: spin 4s linear infinite;
-		margin: 0 5.375rem -4.588rem;
+		margin: -35px 0 -50px 0;
 
 	}
 	.test-img2{
 		animation: spine 4s linear infinite;
-		margin: 0.625rem 0;
+		margin: 0px 0 25px -30px;
 		
 	}
 	.test-img3{
 		animation: spini 4s linear infinite;
-		margin: 0.938rem 0 0 -2.688rem;
+		margin: 10px 0 0 -25px
 		 
 	}
 	@keyframes spin {
@@ -111,11 +151,6 @@ body{
 	  0% { transform: rotate(360deg); }
 	  100% { transform: rotate(0deg); }
 	}
-
-	.wrapper{
-		margin: 0;	
-	}
-
 	.tt{
 		background: white;
 		padding: 50px;
