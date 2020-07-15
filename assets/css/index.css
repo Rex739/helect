@@ -51,7 +51,7 @@ body{
 @media all and (min-width: 0px){
 	header{
 		background: #6110B1;
-		color: white;
+		color: white;   
 		filter: saturate(50%);
 		height: 80vh;
 		margin: 0;
