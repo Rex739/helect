@@ -24,7 +24,6 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/lightbox.css">
 	<!-- ADD YOUR CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/landing.css">
-
 </head>
 <body>
 	<header class="">
