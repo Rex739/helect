@@ -310,6 +310,7 @@ body{
 	}
 	header{
 		height: 80vh;
+		background-size: cover;
 	}
 	.logo{
 		display: flex;
@@ -401,7 +402,7 @@ body{
 		padding: 20px;
 	}
 	.hey{
-		background: url(../images/bg1.svg);
+		background: url(../images/bg2.svg);
 		background-size: cover;
 	}
 	.hi{
@@ -414,6 +415,11 @@ body{
 		background-size: 100px;
 		background-repeat: no-repeat;
 		background-position: top right;
+	}
+	.logo{
+		height: 50%;
+		font-size: 20px;
+		align-items: center;
 	}
 }
 @media all and (min-width: 768px) and (min-height: 1122px){
@@ -502,6 +508,25 @@ body{
 	.mobile, .mobile1{
 		height: 80vh;
 	}
+	.preview-btn, .preview-btn a:hover{
+		font-size: 18px;
+		padding: 5px 15px;
+		text-decoration: none;
+	}
+	
+}
+@media all and (min-width: 1024px) and (min-height: 768px){
+	header{
+		height: 130vh;
+		background-size: cover;
+	}
+	.logo{
+		padding-left: 40px;
+		font-size: 38px;
+	}
+	.size{
+		height: 11.5rem;
+	}
 }
 @media all and (min-width: 1024px) and (min-height: 1366px){
 	.size{
@@ -509,7 +534,7 @@ body{
 	}
 	.logo{
 		padding-left: 40px;
-		font-size: 38px;
+		font-size: 24px;
 	}
 	.foot{
 		font-size: 24px;
