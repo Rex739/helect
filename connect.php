@@ -7,7 +7,7 @@ if(isset($_POST['submit'])){
 	 "uvekkor8ppw3s39i", "oy2hci2sbtwbhs3a", "mk9b4mpsfztl7h0x");
 	$cmd = "INSERT into email value ('$email');";
 	if(mysqli_query($conn, $cmd)){
-		echo "Successful";
+		echo "";
 	}else{
 		"try again"; 
 	}
