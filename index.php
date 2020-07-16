@@ -4,9 +4,9 @@
 <head>
 	<meta charset="utf-8">
 	<!-- WEBSITE DESCRIPTION -->
-	<meta name="description" content="PETE: MUSIC TEMPLATE">
+	<meta name="description" content="H_ELECT: Vote from Home, COMING SOON!!">
 	<meta name="keyword" content="HTML, CSS, BOOTSTRAP, JAVACRIPT">
-	<meta name="author" centent="Rex[02]">
+	<meta name="author" centent="Ojemeh Progress">
 	<!-- OPTIMIZIED VIEWPORT FOR MOBILE -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale =1.0">
@@ -14,7 +14,7 @@
 	<!-- GOOGLE FONTS -->
 	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 	<!-- FAVICON -->
-	<link rel="icon" type="image/png" href="images/favicon.png" sizes="32X32">
+	<link rel="icon" type="image/png" href="assets/images/logo.png" sizes="32X32">
 
 	<!-- GLOBAL CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
