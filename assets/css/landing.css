@@ -56,6 +56,7 @@ body{
 @media all and (min-width: 0px){
 	header{
 		background: url(../images/cover23.jpg);
+		background-size: cover;
 		color: var(--primary-color);  
 		filter: saturate(90%);
 		height: 100%;
@@ -256,6 +257,25 @@ body{
 		padding: 10px 20px;
 		font-family: var(--nav-font);
 		font-size: 11px;
+	}
+	#thanks{
+		height: 100%;
+		display: grid;
+		font: 16px/1.5 var(--primary-font);
+		padding: 3rem 0.625rem;
+	}
+	.thanks{
+		text-align: center;
+	}
+	.guy, .guy a, .guy a:hover{
+		font: 14px/1.5 var(--primary-font);
+		padding: 10px 30px;
+		border-radius: 10px;
+		outline: none;
+		border: none;
+		margin-top: 1rem;
+		color: var(--primary-color);
+		text-decoration: none;
 	}
 }
 @media all and (min-width: 320px) and (min-height: 568px){

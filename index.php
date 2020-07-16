@@ -1,19 +1,3 @@
-<?php
-
-$email ="";
-if(isset($_POST['submit'])){
-	$email = $_POST['email'];
-	$conn = new mysqli("nnmeqdrilkem9ked.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306",
-	 "uvekkor8ppw3s39i", "oy2hci2sbtwbhs3a", "mk9b4mpsfztl7h0x");
-	$cmd = "INSERT into email value ('$email');";
-	if(mysqli_query($conn, $cmd)){
-		echo "Successful";
-	}else{
-		"try again"; 
-	}
-}
-?> 
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -75,7 +59,7 @@ if(isset($_POST['submit'])){
 				<div class="col-12 col-sm-12 col-md-7 col-lg-7">
 					<h1 class="cover-heading wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.3s">WE’RE LAUNCHING SOON</h1>
 					<p class="content-text wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">
-						We’re creating something reallly exciting in the house that and about to launch soon. An app that will make voting process more efficient, convenient and reliable, you will be able to ote from home with jut few steps  Thank you so much for your interest. Be the first to know, subscribe below test
+						We’re creating something reallly exciting in the house that and about to launch soon. An app that will make voting process more efficient, convenient and reliable, you will be able to ote from home with jut few steps  Thank you so much for your interest. Be the first to know, subscribe below
 					</p>
 					
 				</div>
@@ -90,7 +74,7 @@ if(isset($_POST['submit'])){
 				</div>
 			</div>
 		</section>
-		<form method="post" class="form">
+		<form method="post" class="form" action="thanks.php">
 			<input type="email" name="email" placeholder="Enter Your Email" class="email"><br>
 			<button class="btn btn-dark subscribe-btn wow tada" data-wow-duration="0.5s" data-wow-delay="0.5s" type="submit" name="submit">subscribe</button>
 		</form> 
@@ -178,9 +162,8 @@ if(isset($_POST['submit'])){
 		</section>
 		<section class="prev notify">
 			<div>
-				
 				<p class="content-text text1 wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.5s">Get notified when we launch</p>
-				<form method="post" class="">
+				<form method="post" class="" action="thanks.php">
 					<input type="email" name="email" placeholder="Enter Your Email" class="email">
 					<button class="btn btn-dark subscribe-btn notify-btn wow tada" data-wow-duration="0.5s" data-wow-delay="0.5s" type="submit" name="submit">subscribe</button>
 				</form> 
