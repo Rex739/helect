@@ -15,21 +15,20 @@ if(isset($_POST['submit'])){
 ?> 
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<!-- WEBSITE DESCRIPTION -->
-	<meta name="description" content="H_ELECT: VOTE FROM YOUR THE COMFORT OF YOUR HOME">
+	<meta name="description" content="PETE: MUSIC TEMPLATE">
 	<meta name="keyword" content="HTML, CSS, BOOTSTRAP, JAVACRIPT">
 	<meta name="author" centent="Rex[02]">
 	<!-- OPTIMIZIED VIEWPORT FOR MOBILE -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale =1.0">
-	<title>Helect</title>
+	<title>Pete</title>
 	<!-- GOOGLE FONTS -->
-	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
-
-	<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 	<!-- FAVICON -->
 	<link rel="icon" type="image/png" href="images/favicon.png" sizes="32X32">
 
@@ -37,14 +36,160 @@ if(isset($_POST['submit'])){
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-grid.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/timer.css">	
+	<link rel="stylesheet" type="text/css" href="assets/css/lightbox.css">
 	<!-- ADD YOUR CSS -->
-	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/landing.css">
+
 </head>
 <body>
-	<form method="post">
-		<input type="email" name="email" placeholder="Enter Your Email">
-		<input type="submit" name="submit">
-	</form>
+	<header class="">
+		<div class="row wrapper">
+			<div class="col-3 col-sm-3 col-md-3 col-lg-3">
+				<h1 class="logo"><img src="assets/images/logo.svg" class="company-logo">H_elect</h1>	
+			</div>
+			<div class="col-6 col-sm-9 col-md-6 col-lg-6 align mk">
+				<p class="more">
+				  <a class="" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+				    <span class="collapse-btn"><img src="assets/images/collapse.svg" class="collapse-vector"></span>
+				  </a>
+				</p>
+				<div class="collapse" id="collapseExample">
+				  <p id="demo" class="btn-dark timer"></p>
+				</div>
+			</div>
+		</div>
+		<section class="rotors row wrapper hide">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12 first-rotor">
+					<img src="assets/images/motor.svg" class="test-img size">	
+				</div>
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+					<img src="assets/images/motor.svg" class="test-img2 size">
+					<img src="assets/images/motor.svg" class="test-img3 size">
+				</div>
+			</div>
+		</section>
+		<section class="cover">
+			<div class="row wrapper">
+				<div class="col-12 col-sm-12 col-md-7 col-lg-7">
+					<h1 class="cover-heading wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.3s">WE’RE LAUNCHING SOON</h1>
+					<p class="content-text wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">
+						We’re creating something reallly exciting in the house that and about to launch soon. An app that will make voting process more efficient, convenient and reliable, you will be able to ote from home with jut few steps  Thank you so much for your interest. Be the first to know, subscribe below test
+					</p>
+					
+				</div>
+				<div class="col-12 col-sm-12 col-md-5 col-lg-5 hide1 rotors">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+						<img src="assets/images/motor.svg" class="test-img size">	
+					</div>
+					<div class="col-12 col-sm-12 col-md-12">
+						<img src="assets/images/motor.svg" class="test-img2 size">
+						<img src="assets/images/motor.svg" class="test-img3 size">
+					</div>
+				</div>
+			</div>
+		</section>
+		<form method="post" class="form">
+			<input type="email" name="email" placeholder="Enter Your Email" class="email"><br>
+			<button class="btn btn-dark subscribe-btn wow tada" data-wow-duration="0.5s" data-wow-delay="0.5s" type="submit" name="submit">subscribe</button>
+		</form> 
+
+	</header>
+	<main>
+		<section class="preview">
+			<div class="prev">
+				<h1 class="prev-heading wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">preview</h1>
+				<p class="content-text text1 wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">We present  some of it’s featured screens, enjoy! </p>
+			</div>
+			<div class="row wrapper mobile1">
+				<div class="col-5 col-sm-4 col-md-4 col-lg-4 hey">
+					<a href="assets/images/mobile1.svg" class="app" data-lightbox="image-1"><img src="assets/images/mobile1.svg" class="app wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">
+					</a>
+				</div>
+				<div class="col-7 col-sm-8 col-md-8 col-lg-8 hi hi1">
+					<p class="preview-content1 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.5s">
+						We know how sometimes stressful it is to carry out a voting process and we appreciate your effort to go out to vot underminin the stress it comes with, thank you very much for taking out time to wait for this advancement. This is our first screen on our app that identifies us with our logo that signifies integrity.
+						<div class="btn-text"><button class="btn btn-dark preview-btn wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.5s"><a href="assets/images/mobile1.svg" class="app" data-lightbox="image-1">view full screen</a></button></div>
+					</p>		
+				</div>
+			</div>
+			<div class="row wrapper mobile">
+				<div class="col-7 col-sm-8 col-md-8 col-lg-8 hi">
+					<p class="preview-content wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">
+						This is our screen for first time registration and frequent user login. For security reasons users will have to always login when using the app. This is so, to avoid unwanted persons into your personal profile. All activities on this app are monitored and if election terms are violated, it will incure penalties.
+					</p>
+					<button class="btn btn-dark preview-btn wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s"><a href="assets/images/mobile2.svg" class="app" data-lightbox="image-1">view full screen</a></button>
+				</div>
+				<div class="col-5 col-sm-4 col-md-4 col-lg-4 hey">
+					<a href="assets/images/mobile2.svg" class="app" data-lightbox="image-1"><img src="assets/images/mobile2.svg" class="app wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.5s">
+					</a>
+				</div>
+			</div>
+			<div class="row wrapper mobile1">
+				<div class="col-5 col-sm-4 col-md-4 col-lg-4 hey">
+					<a href="assets/images/mobile3.svg" class="app" data-lightbox="image-1"><img src="assets/images/mobile3.svg" class="app wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">
+					</a>
+				</div>
+				<div class="col-7 col-sm-8 col-md-8 col-lg-8 hi1">
+					<p class="preview-content1 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.5s">
+						Use of aphabets are not allowed for your account password. however users are also given the opportunity to use their fingerprint to access their account that is if their devices have features for fingerprint usage 
+						<div class="btn-text"><button class="btn btn-dark preview-btn wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.5s"><a href="assets/images/mobile3.svg" class="app" data-lightbox="image-1">view full screen</a></button></div>
+					</p>
+				</div>
+			</div>
+			<div class="row wrapper mobile">
+				<div class="col-7 col-sm-8 col-md-8 col-lg-8 hi">
+					<p class="preview-content wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">
+						The main goal for this app is to allow for voting from the comfort of your home. this goal isn’t changing. On our home page along with voting options, we give you opportunity to get info concerning the election from the news.
+					</p>
+					<button class="btn btn-dark preview-btn wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s"><a href="assets/images/mobile4.svg" class="app" data-lightbox="image-1">view full screen</a></button>
+				</div>
+				<div class="col-5 col-sm-4 col-md-4 col-lg-4 hey">
+					<a href="assets/images/mobile4.svg" class="app" data-lightbox="image-1"><img src="assets/images/mobile4.svg" class="app wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.5s">
+					</a>
+				</div>
+			</div>
+			<div class="row wrapper mobile1">
+				<div class="col-5 col-sm-4 col-md-4 col-lg-4 hey">
+					<a href="assets/images/mobile5.svg" class="app" data-lightbox="image-1"><img src="assets/images/mobile5.svg" class="app wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">
+					</a>
+				</div>
+				<div class="col-7 col-sm-8 col-md-8 col-lg-8 hi1">
+					<p class="preview-content1 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.5s">
+						As always, all the elections can not be run in one day so as to enable proper monitoring. Different days with diferent elections ranging from the Federal level election to the local level election. All these are enlisted on our category page and only accessible on due date.<br>
+						<div class="btn-text"><button class="btn btn-dark preview-btn wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.5s"><a href="assets/images/mobile5.svg" class="app" data-lightbox="image-1">view full screen</a></button></div>
+					</p>
+					
+				</div>
+			</div>
+			<div class="row wrapper mobile">
+				<div class="col-7 col-sm-8 col-md-8 col-lg-8 hi">
+					<p class="preview-content wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">
+						Our above image shows that the governorship election is on. If so, then you’re to the screen for the various states that are on elections on that date. Please note that you can only vote for your state of origin. Other screens will give us access to screen the user to ensure that they are eligible to vote.
+					</p>
+					<button class="btn btn-dark preview-btn wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s"><a href="assets/images/mobile6.svg" class="app" data-lightbox="image-1">view full screen</a></button>
+				</div>
+				<div class="col-5 col-sm-4 col-md-4 col-lg-4 hey">
+					<a href="assets/images/mobile6.svg" class="app" data-lightbox="image-1"><img src="assets/images/mobile6.svg" class="app wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.5s">
+					</a>
+				</div>
+			</div>
+		</section>
+		<section class="prev notify">
+			<div>
+				<p class="content-text text1 wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.5s">Get notified when we launch</p>
+				<form method="post" class="">
+					<input type="email" name="email" placeholder="Enter Your Email" class="email">
+					<button class="btn btn-dark subscribe-btn notify-btn wow tada" data-wow-duration="0.5s" data-wow-delay="0.5s" type="submit" name="submit">subscribe</button>
+				</form> 
+			</div>
+		</section>
+	</main>
+	<footer class="foot">
+		<p>Copyright &copy 2020 Helect.com</p>
+	</footer>
+
 
 	<script type="text/javascript" src="assets/js/jquery-3.5.1.min.js"></script>
 	<script type="text/javascript" src="assets/js/popper.js"></script>
@@ -53,5 +198,7 @@ if(isset($_POST['submit'])){
 	<script>
 	   new WOW().init();
     </script>
+    <script type="text/javascript" src="assets/js/timer.js"></script>
+    <script type="text/javascript" src="assets/js/lightbox.js"></script>
 </body>
 </html>

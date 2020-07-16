@@ -26,7 +26,7 @@ body{
 .collapse-btn{
 	background: var(--collaspe_btn-color);
 	border: none;
-	padding: 1rem 4rem;
+	/*padding: 1rem 4rem;*/
 	border-radius: 0px 0px 20px 20px;
 	outline: none;
 }
@@ -39,11 +39,11 @@ body{
 }
 .subscribe-btn{
 	border-radius: 10px;
-	font-family: var(--nav-font);
-	text-align: right;
+	font-family: var(--primary-font);
+	text-align: center;
 }
 .preview-btn, .preview-btn a{
-	font-family: var(--nav-font);
+	font-family: var(--primary-font);
 	border-radius: 10px;
 	color: var(--white-color);
 }
@@ -58,7 +58,7 @@ body{
 		background: url(../images/cover19.svg);
 		/*color: white;*/   
 		filter: saturate(50%);
-		height: 80vh;
+		height: 100%;
 		margin: 0;
 		width: 100%;
 	}
@@ -107,6 +107,7 @@ body{
 		background-color: var(--white-color);
 		padding: 5px 10px;
 		border-color: var(--white-color);
+		width: 100%;
 
 	}
 	.email::placeholder{
@@ -126,7 +127,7 @@ body{
 	}
 	.prev{
 		font-family: var(--nav-font);
-		height: 20vh;
+		height: 100%;
 		background-color: #803210;
 		padding: 10px 15px;
 		color: var(--white-color);
@@ -255,10 +256,11 @@ body{
 }
 @media all and (min-width: 320px) and (min-height: 568px){
 	header{
-		height: 100vh;
+		height: 120vh;
 	}
+	.
 	.collapse-btn{	
-		padding: 0.5rem 3rem 0.1rem;
+		padding: 0.5rem 3rem 0.1rem 3rem;
 		border-radius: 0px 0px 25px 25px;
 	}
 	.timer{
@@ -309,6 +311,7 @@ body{
 	}
 	header{
 		height: 80vh;
+		background-size: cover;
 	}
 	.logo{
 		display: flex;
@@ -400,7 +403,7 @@ body{
 		padding: 20px;
 	}
 	.hey{
-		background: url(../images/bg1.svg);
+		background: url(../images/bg2.svg);
 		background-size: cover;
 	}
 	.hi{
@@ -413,6 +416,11 @@ body{
 		background-size: 100px;
 		background-repeat: no-repeat;
 		background-position: top right;
+	}
+	.logo{
+		height: 50%;
+		font-size: 20px;
+		align-items: center;
 	}
 }
 @media all and (min-width: 768px) and (min-height: 1122px){
@@ -498,6 +506,28 @@ body{
 	.notify-btn{
 		padding: 20px;
 	}
+	.mobile, .mobile1{
+		height: 80vh;
+	}
+	.preview-btn, .preview-btn a:hover{
+		font-size: 18px;
+		padding: 5px 15px;
+		text-decoration: none;
+	}
+	
+}
+@media all and (min-width: 1024px) and (min-height: 768px){
+	header{
+		height: 180vh;
+		background-size: cover;
+	}
+	.logo{
+		padding-left: 40px;
+		font-size: 38px;
+	}
+	.size{
+		height: 11.5rem;
+	}
 }
 @media all and (min-width: 1024px) and (min-height: 1366px){
 	.size{
@@ -505,7 +535,7 @@ body{
 	}
 	.logo{
 		padding-left: 40px;
-		font-size: 38px;
+		font-size: 24px;
 	}
 	.foot{
 		font-size: 24px;
