@@ -10,7 +10,7 @@
 	<!-- OPTIMIZIED VIEWPORT FOR MOBILE -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale =1.0">
-	<title>Pete</title>
+	<title>H_elect</title>
 	<!-- GOOGLE FONTS -->
 	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 	<!-- FAVICON -->
