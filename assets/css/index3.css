@@ -39,11 +39,11 @@ body{
 }
 .subscribe-btn{
 	border-radius: 10px;
-	font-family: var(--nav-font);
-	text-align: right;
+	font-family: var(--primary-font);
+	text-align: center;
 }
 .preview-btn, .preview-btn a{
-	font-family: var(--nav-font);
+	font-family: var(--primary-font);
 	border-radius: 10px;
 	color: var(--white-color);
 }
@@ -107,6 +107,7 @@ body{
 		background-color: var(--white-color);
 		padding: 5px 10px;
 		border-color: var(--white-color);
+		width: 100%;
 
 	}
 	.email::placeholder{
