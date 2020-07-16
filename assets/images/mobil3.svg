@@ -23,8 +23,8 @@
 <circle cx="211" cy="319" r="15" fill="#E2E1E1"/>
 <circle cx="259" cy="319" r="15" fill="#E2E1E1"/>
 <circle cx="307" cy="319" r="15" fill="#E2E1E1"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M28.7868 724H28V880C28 902.091 45.9086 920 68 920H402C424.091 920 442 902.091 442 880V724H440.099C427.502 770.462 318.323 792.899 191.307 774.204C126.47 764.661 69.1719 746.194 28.7868 724Z" fill="black"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M28.7868 724H28V880C28 902.091 45.9086 920 68 920H402C424.091 920 442 902.091 442 880V724H440.099C427.502 770.462 318.323 792.899 191.307 774.204C126.47 764.661 69.1719 746.194 28.7868 724Z" fill="url(#pattern1)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M28.7868 724H28V920H442V724H440.099C427.502 770.462 318.323 792.899 191.307 774.204C126.47 764.661 69.1719 746.194 28.7868 724Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M28.7868 724H28V920H442V724H440.099C427.502 770.462 318.323 792.899 191.307 774.204C126.47 764.661 69.1719 746.194 28.7868 724Z" fill="url(#pattern1)"/>
 <g filter="url(#filter1_dd)">
 <rect x="71" y="380" width="328" height="442" fill="#F2F2F2"/>
 </g>

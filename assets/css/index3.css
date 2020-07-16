@@ -58,7 +58,7 @@ body{
 		background: url(../images/cover19.svg);
 		/*color: white;*/   
 		filter: saturate(50%);
-		height: 80vh;
+		height: 100%;
 		margin: 0;
 		width: 100%;
 	}
@@ -126,7 +126,7 @@ body{
 	}
 	.prev{
 		font-family: var(--nav-font);
-		height: 20vh;
+		height: 100%;
 		background-color: #803210;
 		padding: 10px 15px;
 		color: var(--white-color);
