@@ -48,7 +48,7 @@
 		</div>
 		<div id="thanks">
 			<p class="thanks">
-				Thank You For Subcribing, we'll Notify You Soon<br>
+				Thanks For Subscribing, We'll Keep In Touch<br>
 				<button class="btn-dark guy"><a href="index.php"> return to homepage</a></button>
 			</p>
 		</div>
