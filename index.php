@@ -178,6 +178,7 @@ if(isset($_POST['submit'])){
 		</section>
 		<section class="prev notify">
 			<div>
+				
 				<p class="content-text text1 wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.5s">Get notified when we launch</p>
 				<form method="post" class="">
 					<input type="email" name="email" placeholder="Enter Your Email" class="email">
