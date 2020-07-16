@@ -499,6 +499,9 @@ body{
 	.notify-btn{
 		padding: 20px;
 	}
+	.mobile, .mobile1{
+		height: 80vh;
+	}
 }
 @media all and (min-width: 1024px) and (min-height: 1366px){
 	.size{
