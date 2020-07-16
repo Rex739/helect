@@ -58,9 +58,8 @@
 				<div class="col-12 col-sm-12 col-md-7 col-lg-7">
 					<h1 class="cover-heading wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.3s">WE’RE LAUNCHING SOON</h1>
 					<p class="content-text wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">
-						We’re creating something reallly exciting in the house that and about to launch soon. An app that will make voting process more efficient, convenient and reliable, you will be able to vote from home with just few steps. Thank you so much for your interest. Be the first to know, subscribe below
-					</p>
-					
+						We’re creating something really exciting in the house that's about to launched soon. An app that will make voting process more efficient, convenient and reliable. You will be able to vote from home with just few steps. Be the first to know, subscribe below:
+					</p>	
 				</div>
 				<div class="col-12 col-sm-12 col-md-5 col-lg-5 hide1 rotors">
 					<div class="col-12 col-sm-12 col-md-12 col-lg-12">
@@ -75,15 +74,15 @@
 		</section>
 		<form method="post" class="form" action="thanks.php">
 			<input type="email" name="email" placeholder="Enter Your Email" class="email"><br>
-			<button class="btn btn-dark subscribe-btn wow tada" data-wow-duration="0.5s" data-wow-delay="0.5s" type="submit" name="submit">subscribe</button>
+			<button class="btn btn-dark subscribe-btn wow tada" data-wow-duration="0.5s" data-wow-delay="0.5s" type="submit" name="submit">Subscribe</button>
 		</form> 
 
 	</header>
 	<main>
 		<section class="preview">
 			<div class="prev">
-				<h1 class="prev-heading wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">preview</h1>
-				<p class="content-text text1 wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">We present  some of it’s featured screens, enjoy! </p>
+				<h1 class="prev-heading wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">Preview</h1>
+				<p class="content-text text1 wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">We present  some of it’s featured screens, <b>enjoy!</b></p>
 			</div>
 			<div class="row wrapper mobile1">
 				<div class="col-5 col-sm-4 col-md-4 col-lg-4 hey">
@@ -92,7 +91,7 @@
 				</div>
 				<div class="col-7 col-sm-8 col-md-8 col-lg-8 hi hi1">
 					<p class="preview-content1 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.5s">
-						We know how sometimes stressful it is to carry out a voting process and we appreciate your effort to go out to vot underminin the stress it comes with, thank you very much for taking out time to wait for this advancement. This is our first screen on our app that identifies us with our logo that signifies integrity.
+						We know how sometimes stressful it is to carry out a voting process and we appreciate your effort to go out to vote undermining the stress it comes with, thank you very much for taking out time to wait for this advancement. This is our first screen on our app that identifies us with our logo that signifies integrity.
 						<div class="btn-text"><button class="btn btn-dark preview-btn wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.5s"><a href="assets/images/mobile1.svg" class="app" data-lightbox="image-1">view full screen</a></button></div>
 					</p>		
 				</div>
@@ -100,7 +99,7 @@
 			<div class="row wrapper mobile">
 				<div class="col-7 col-sm-8 col-md-8 col-lg-8 hi">
 					<p class="preview-content wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">
-						This is our screen for first time registration and frequent user login. For security reasons users will have to always login when using the app. This is so, to avoid unwanted persons into your personal profile. All activities on this app are monitored and if election terms are violated, it will incure penalties.
+						This is our screen for first time registration and frequent user login. For security reasons users will have to always login when using the app. This is so, to avoid unwanted persons into your personal profile. All activities on this app are monitored and if election rules are violated, it will incure penalties.
 					</p>
 					<button class="btn btn-dark preview-btn wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s"><a href="assets/images/mobile2.svg" class="app" data-lightbox="image-1">view full screen</a></button>
 				</div>

@@ -255,7 +255,7 @@ body{
 	.timer{
 		color: var(--white-color);
 		padding: 10px 20px;
-		font-family: var(--nav-font);
+		font-family: var(--primary-font);
 		font-size: 11px;
 	}
 	#thanks{
