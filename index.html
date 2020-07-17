@@ -163,7 +163,7 @@
 				<p class="content-text text1 wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.5s">Get notified when we launch</p>
 				<form method="post" class="" action="thanks.php">
 					<input type="email" name="email" placeholder="Enter Your Email" class="email">
-					<button class="btn btn-dark subscribe-btn notify-btn wow tada" data-wow-duration="0.5s" data-wow-delay="0.5s" type="submit" name="submit">subscribe</button>
+					<button class="btn btn-dark subscribe-btn notify-btn wow tada" data-wow-duration="0.5s" data-wow-delay="0.5s" type="submit" name="submit">Subscribe</button>
 				</form> 
 			</div>
 		</section>
