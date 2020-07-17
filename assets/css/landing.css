@@ -262,6 +262,7 @@ body{
 		padding: 10px 20px;
 		font-family: var(--primary-font);
 		font-size: 11px;
+		text-align: center;
 	}
 	#thanks{
 		height: 100%;
@@ -321,6 +322,9 @@ body{
 	}
 	.mk{
 		margin-left: 0;
+	}
+	.timer{
+		font-size: 10px;
 	}	
 }
 @media all and (min-width: 411px) and (min-height: 731px){

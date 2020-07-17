@@ -58,7 +58,7 @@
 				<div class="col-12 col-sm-12 col-md-7 col-lg-7">
 					<h1 class="cover-heading wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.3s">WE’RE LAUNCHING SOON</h1>
 					<p class="content-text wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">
-						We’re creating something really exciting in the house that's about to launched soon. An app that will make voting process more efficient, convenient and reliable. You will be able to vote from home with just few steps. Be the first to know, subscribe below:
+						We’re creating something really exciting in the house that's about to launched soon. An app that will make voting process more efficient, convenient and reliable. You will be able to vote from home with just few steps. Be the first to know, subscribe belows
 					</p>	
 				</div>
 				<div class="col-12 col-sm-12 col-md-5 col-lg-5 hide1 rotors">
