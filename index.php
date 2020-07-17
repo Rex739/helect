@@ -81,8 +81,8 @@
 	<main>
 		<section class="preview">
 			<div class="prev">
-				<h1 class="prev-heading wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">Preview</h1>
-				<p class="content-text text1 wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">We present  some of it’s featured screens, <b>enjoy!</b></p>
+				<h1 class="prev-heading wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay="0.6s">Preview</h1>
+				<p class="content-text text1 wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay="0.6s">We present  some of it’s featured screens, <b>enjoy!</b></p>
 			</div>
 			<div class="row wrapper mobile1">
 				<div class="col-5 col-sm-4 col-md-4 col-lg-4 hey">
