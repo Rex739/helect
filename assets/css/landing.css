@@ -589,4 +589,8 @@ body{
 	.company-logo{
 		height: 50px;
 	}
+	.logo{
+		padding-left: 0px;
+		font-size: 38px;
+	}
 }
