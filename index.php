@@ -27,7 +27,7 @@
 </head>
 <body>
 	<div class="preload">
-		<img src="assets/images/motor.svg" class="test-img press">
+		<img src="assets/images/motor.svg" class="test-img2 press">
 	</div>
 	<header class="">
 		<div class="row wrapper">
