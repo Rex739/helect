@@ -5,7 +5,6 @@
 	padding: 0;
 	box-shadow: border-box;
 }
-
 :root {
   --primary-font: 'Poppins', sans-serif;
   --nav-font: 'Orbitron', sans-serif;
@@ -17,6 +16,30 @@
   --button-text-color: #D8F7F9;
   --hr-color: #FBFD8A;
 }
+.preload{
+	position: fixed;
+	top: 0;
+	z-index: 1999;
+	width: 100%;
+	height: 100vh;
+	background: var(--primary-color);
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+.press{
+	animation: motor 2s ease infinite alternate;
+}
+
+@keyframes motor{
+	from{
+		transform: translateY(0px);
+	}
+	to{
+		transform: translateY(50px);
+	}
+}
+
 body{
 	background-color: var(--primary-color);
 	color: var(--secondary-color);
@@ -41,6 +64,14 @@ body{
 	border-radius: 0.625rem;
 	font-family: var(--primary-font);
 	text-align: center;
+}
+@keyframes subcribe{
+	from{
+		transform: translateY(0px);
+	}
+	to{
+		transform: translateY(50px);
+	}
 }
 .preview-btn, .preview-btn a{
 	font-family: var(--primary-font);
@@ -469,7 +500,11 @@ body{
 		height: 15vh;
 	}
 }
-
+@media all and (min-width: 768px) and (min-height: 1322px){
+	header{
+		height: 50vh;
+	}
+}
 @media all and (min-width: 1024px){
 	header{
 		height: 100vh;
