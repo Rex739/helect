@@ -16,24 +16,6 @@
   --button-text-color: #D8F7F9;
   --hr-color: #FBFD8A;
 }
-.press{
-	animation: motor 2s ease infinite alternate;
-}
-
-@keyframes motor{
-	from{
-		transform: translateY(0px);
-	}
-	to{
-		transform: translateY(50px);
-	}
-}
-
-body{
-	background-color: var(--primary-color);
-	color: var(--secondary-color);
-	font-family: var(--primary-font);
-}
 /*buttons*/
 .collapse-btn{
 	background: var(--collaspe_btn-color);
@@ -634,4 +616,22 @@ body{
 .preload-finish{
 	opacity: 0;
 	pointer-events: none;
+}
+.press{
+	animation: motor 2s ease infinite alternate;
+}
+
+@keyframes motor{
+	from{
+		transform: translateY(0px);
+	}
+	to{
+		transform: translateY(50px);
+	}
+}
+
+body{
+	background-color: var(--primary-color);
+	color: var(--secondary-color);
+	font-family: var(--primary-font);
 }
