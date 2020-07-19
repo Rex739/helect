@@ -27,3 +27,9 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+
+window.addEventListener('load', ()=> {
+  const preload = document.querySelector('.preload');
+  preload.classList.add('preload-finish');
+});

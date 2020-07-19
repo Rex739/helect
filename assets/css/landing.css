@@ -19,13 +19,18 @@
 .preload{
 	position: fixed;
 	top: 0;
-	z-index: 1999;
 	width: 100%;
 	height: 100vh;
-	background: var(--primary-color);
-	display: none;
+	background: var(--secondary-color);
+	display: flex;
 	justify-content: center;
 	align-items: center;
+	transition: opacity 0.5s ease;
+	z-index: 40;
+}
+.preload-finish{
+	opacity: 0;
+	pointer-events: none;
 }
 .press{
 	animation: motor 2s ease infinite alternate;
@@ -490,7 +495,6 @@ body{
 		height: 50%;
 		font-size: 20px;
 		align-items: center;
-		
 	}
 }
 @media all and (min-width: 768px) and (min-height: 1122px){
