@@ -617,7 +617,7 @@
 	opacity: 0;
 	pointer-events: none;
 }
-.press{
+/*.press{
 	animation: motor 2s ease infinite alternate;
 }
 
@@ -629,7 +629,7 @@
 		transform: translateY(50px);
 	}
 }
-
+*/
 body{
 	background-color: var(--primary-color);
 	color: var(--secondary-color);
