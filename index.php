@@ -26,6 +26,9 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/landing.css">
 </head>
 <body>
+	<div class="preload">
+		<img src="assets/images/motor.svg" class="test-img press">
+	</div>
 	<header class="">
 		<div class="row wrapper">
 			<div class="col-3 col-sm-3 col-md-3 col-lg-3">
