@@ -16,22 +16,6 @@
   --button-text-color: #D8F7F9;
   --hr-color: #FBFD8A;
 }
-.preload{
-	position: fixed;
-	top: 0;
-	width: 100%;
-	height: 100vh;
-	background: var(--secondary-color);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	transition: opacity 0.5s ease;
-	z-index: 40;
-}
-.preload-finish{
-	opacity: 0;
-	pointer-events: none;
-}
 .press{
 	animation: motor 2s ease infinite alternate;
 }
@@ -633,4 +617,21 @@ body{
 		padding-left: 0px;
 		font-size: 38px;
 	}
+}
+
+.preload{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100vh;
+	background: var(--secondary-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: opacity 0.5s ease;
+	z-index: 40;
+}
+.preload-finish{
+	opacity: 0;
+	pointer-events: none;
 }
