@@ -16,6 +16,11 @@
   --button-text-color: #D8F7F9;
   --hr-color: #FBFD8A;
 }
+body{
+	background-color: var(--primary-color);
+	color: var(--secondary-color);
+	font-family: var(--primary-font);
+}
 /*buttons*/
 .collapse-btn{
 	background: var(--collaspe_btn-color);
@@ -630,8 +635,3 @@
 	}
 }
 */
-body{
-	background-color: var(--primary-color);
-	color: var(--secondary-color);
-	font-family: var(--primary-font);
-}
