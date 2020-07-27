@@ -34,16 +34,6 @@
 			<div class="col-3 col-sm-3 col-md-3 col-lg-3">
 				<h1 class="logo"><img src="assets/images/logo.svg" class="company-logo">H_elect</h1>	
 			</div>
-			<div class="col-6 col-sm-9 col-md-6 col-lg-6 align mk">
-				<p class="more">
-				  <a class="" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-				    <span class="collapse-btn"><img src="assets/images/collapse.svg" class="collapse-vector"></span>
-				  </a>
-				</p>
-				<div class="collapse" id="collapseExample">
-				  <p id="demo" class="btn-dark timer"></p>
-				</div>
-			</div>
 		</div>
 		<section class="rotors row wrapper hide">
 			<div class="col-12 col-sm-12 col-md-12 col-lg-12">
