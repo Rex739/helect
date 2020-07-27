@@ -66,7 +66,7 @@ body{
 		background-size: cover;
 		color: var(--primary-color);  
 		filter: saturate(90%);
-		height: 100%;
+		height: 175vw;
 		margin: 0;
 		width: 100%;
 	}
@@ -255,7 +255,8 @@ body{
 		display: none;
 	}
 	.notify{
-		height: 30vh;
+		height: 100%;
+		padding-bottom: 1rem;
 	}
 	.notify-btn{
 		margin-top: 5px;
@@ -291,9 +292,9 @@ body{
 		text-decoration: none;
 	}
 }
-@media all and (min-width: 320px) and (min-height: 568px){
+@media all and (min-width: 320px) and (min-height: 425px){
 	header{
-		height: 120vh;
+		height: 172vw;
 	}
 	.collapse-btn{	
 		padding: 0.5rem 3rem 0.1rem 3rem;
@@ -305,7 +306,7 @@ body{
 }
 @media all and (min-width: 375px) and (min-height: 667px){
 	header{
-		height: 100vh;
+		height: 140vw;
 	}
 	.mk{
 		margin-left: 13px;
@@ -319,13 +320,13 @@ body{
 		padding: 0.5rem 4rem;
 	}
 	header{
-		height: 80vh;
+		height: 135vw;
 	}
 	.prev{
-		height: 20vh;
+		height: 100%;
 	}
 	.notify{
-		height: 20vh;
+		height: 100%;
 	}
 	.mk{
 		margin-left: 0;
@@ -336,7 +337,7 @@ body{
 }
 @media all and (min-width: 411px) and (min-height: 731px){
 	header{
-		height: 80vh;
+		height: 120vw;
 	}
 	.mk{
 		margin-left: 30px;
@@ -346,23 +347,19 @@ body{
 	}
 
 }
-@media all and (min-width: 414px){
-
-}
-
 @media all and (min-width: 768px){
 	.mk{
 		margin-left: 0;
 	}
 	header{
-		height: 80vh;
+		height: 90vw;
 		background-size: cover;
 	}
 	.logo{
 		display: flex;
 		font-size: 30px;
 		line-height: 72px;
-		padding: 1.5rem 1.5rem 1.5rem 6rem;
+		padding: 1.5rem; 
 	}
 	.company-logo{
 		height: 70px;
@@ -442,7 +439,8 @@ body{
 		align-items: center;
 	}
 	.notify{
-		height: 30vh;
+		height: 100%;
+		padding-bottom: 2rem;
 	}
 	.notify-btn{
 		padding: 20px;
@@ -470,10 +468,11 @@ body{
 }
 @media all and (min-width: 768px) and (min-height: 1122px){
 	.prev{
-		height: 10vh;
+		height: 100%;
 	}
 	.notify{
-		height: 15vh;
+		height: 100%;
+		margin-bottom: rem;
 	}
 }
 @media all and (min-width: 768px) and (min-height: 1322px){
@@ -621,9 +620,6 @@ body{
 .preload-finish{
 	opacity: 0;
 	pointer-events: none;
-}
-.press{
-	animation: motor 2s ease infinite alternate;
 }
 
 @keyframes motor{
