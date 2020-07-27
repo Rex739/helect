@@ -23,7 +23,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/timer.css">	
 	<link rel="stylesheet" type="text/css" href="assets/css/lightbox.css">
 	<!-- ADD YOUR CSS -->
-	<link rel="stylesheet" type="text/css" href="assets/css/landing.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/landing2.css">
 </head>
 <body>
 	<div class="preload">
