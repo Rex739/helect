@@ -355,6 +355,11 @@ body{
 		font-size: 10px;
 	}	
 }
+@media all and (min-width: 411px) {
+	header{
+		height: 120vw;
+	}
+}
 @media all and (min-width: 411px) and (min-height: 731px){
 	header{
 		height: 120vw;
@@ -367,6 +372,12 @@ body{
 	}
 
 }
+@media all and (min-width: 550px){
+	header{
+		height: 100vw;
+	}
+}
+
 @media all and (min-width: 768px){
 	.mk{
 		margin-left: 0;
@@ -395,7 +406,7 @@ body{
 		text-align: left;
 	}
 	.content-text{
-		font-size: 23px;
+		font-size: 18px;
 		line-height: 30px;
 		text-align: left;
 	}
@@ -490,22 +501,20 @@ body{
 	}
 }
 @media all and (min-width: 768px) and (min-height: 1122px){
+	header{
+		height: 100vw;
+	}
 	.prev{
 		height: 100%;
+		padding: 2rem 1rem;
 	}
 	.notify{
 		height: 100%;
-		margin-bottom: rem;
-	}
-}
-@media all and (min-width: 768px) and (min-height: 1322px){
-	header{
-		height: 50vh;
 	}
 }
 @media all and (min-width: 1024px){
 	header{
-		height: 100vh;
+		height: 100vw;
 	}
 	.timer{
 		padding: 10px 20px;
@@ -519,13 +528,13 @@ body{
 	}
 	.logo{
 		padding-left: 0;
-		font-size: 48px;
+		font-size: 28px;
 	}
 	.company-logo{
-		width: 300px;
+		width: 20%;
 	}
 	.size{
-		height: 12.5rem;
+		height: 11.5rem;
 	}
 	.cover-heading{
 		font-size: 64px;
