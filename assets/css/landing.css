@@ -61,6 +61,26 @@ body{
 		margin: 0;	
 	}
 @media all and (min-width: 0px){
+	.preload{
+		position: fixed;
+		top: 0;
+		width: 100%;
+		height: 100vh;
+		background: var(--secondary-color);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		color: white;
+		align-items: center;
+		transition: opacity 0.5s ease;
+		z-index: 40;
+	}
+	.press{
+		height: 100%;
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 	header{
 		background: url(../images/cover23.jpg);
 		background-size: cover;
@@ -465,6 +485,9 @@ body{
 		font-size: 20px;
 		align-items: center;
 	}
+	.press{
+		height: 20%;
+	}
 }
 @media all and (min-width: 768px) and (min-height: 1122px){
 	.prev{
@@ -603,19 +626,6 @@ body{
 		padding-left: 0px;
 		font-size: 38px;
 	}
-}
-
-.preload{
-	position: fixed;
-	top: 0;
-	width: 100%;
-	height: 100vh;
-	background: var(--secondary-color);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	transition: opacity 0.5s ease;
-	z-index: 40;
 }
 .preload-finish{
 	opacity: 0;
