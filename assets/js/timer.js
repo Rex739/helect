@@ -29,7 +29,7 @@ var x = setInterval(function() {
 }, 1000);
 
 
-window.addEventListener('load', ()=> {
+window.addEventListener('load', () => {
   const preload = document.querySelector('.preload');
   preload.classList.add('preload-finish');
 });
