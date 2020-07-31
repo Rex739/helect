@@ -86,7 +86,7 @@ body{
 		background-size: cover;
 		color: var(--primary-color);  
 		filter: saturate(90%);
-		height: 175vw;
+		height: 210vw;
 		margin: 0;
 		width: 100%;
 	}
